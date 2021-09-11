@@ -33,6 +33,7 @@ def predict():
     return render_template('predict.html',predict=f'Your Results are {result}')
 
 # run the app
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
