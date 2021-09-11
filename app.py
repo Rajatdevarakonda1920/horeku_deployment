@@ -3,7 +3,7 @@ import joblib
 
 #intiliaze the app
 app = Flask(__name__)
-model = joblib.load(r'C:\Users\RAJAT DEVARAKONDA\Desktop\PROJECTS DEPLOYMENTS\deployment\joblib\dib_79.pkl')
+model = joblib.load('dib_79.pkl')
 print('[INFO] model loaded')
 
 #__name__ refers that this file main file in the module
